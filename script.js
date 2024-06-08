@@ -80,8 +80,9 @@ window.onload = () => {
   const lastLocation = localStorage.getItem("lastLocation");
   if (lastLocation) {
     checkWeather(lastLocation);
+  } else {
+    getLocalion();
   }
-  getLocalion();
 };
 
 function getLocalion() {
