@@ -111,7 +111,7 @@ main {
   margin-top: 200px;
   color: white;
 }
-@media (max-width: 425px) {
+@media only screen and (max-width: 767px) {
   body {
     background: linear-gradient(135deg, #00feba, #5b5484);
   }
