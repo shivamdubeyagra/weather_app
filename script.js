@@ -81,6 +81,7 @@ window.onload = () => {
   if (lastLocation) {
     checkWeather(lastLocation);
   }
+  getLocalion();
 };
 
 function getLocalion() {
